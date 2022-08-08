@@ -22,6 +22,10 @@ void Circle::print() const
 }
 ostream& operator<<(ostream& out, const Circle& c) {
 	out << "Centre at " << static_cast<Point>(c)\
-		<< "Radius as : " << c.radius << " Area is "<<c.calculateArea();
+		<< "Radius as : " << c.radius << " Area is "<<c.calculateArea()<<endl;
 	return out;
+}
+
+void foo() {
+	cout << "For Git\n";
 }
